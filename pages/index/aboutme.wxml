@@ -1,0 +1,2 @@
+<view>测试画布用</view>
+<canvas canvas-id='t-canvas'></canvas>

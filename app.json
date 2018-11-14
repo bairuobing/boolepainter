@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/static/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "布尔绘版",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#2d2d2d",
+    "enablePullDownRefresh":true
+  }
+}

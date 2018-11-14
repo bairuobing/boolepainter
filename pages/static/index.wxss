@@ -1,0 +1,22 @@
+/* pages/static/index.wxss */
+.container {
+  padding: 0;
+}
+
+.common-colors {
+  display: flex;
+  flex-direction:row;
+  
+}
+.wrapper canvas {
+  border: 1rpx solid #000;
+}
+.color-card {
+  width: 44rpx;
+  height: 44rpx;
+  background-color: currentColor;
+  border: 2rpx solid #000;
+  border-radius: 6rpx;
+  margin: 10rpx;
+  vertical-align: bottom;
+}

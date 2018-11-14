@@ -1,0 +1,8 @@
+<view class="container">
+  <view class='wrapper' style="height:{{height}}rpx;width:{{width}}rpx">
+    <canvas bindtap="drawDot" canvas-id="cvs" style="height:{{height}}rpx;width:{{width}}rpx"></canvas>
+  </view>
+  <view class="common-colors">
+    <view data-c="{{item}}" bindtap="pickColor" wx:for="{{commonColors}}" style="background-color:{{item}}" class="color-card"></view>
+  </view>
+</view>
