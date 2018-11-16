@@ -11,6 +11,21 @@
 .wrapper canvas {
   border: 1rpx solid #000;
 }
+
+.wrapper {
+  position: relative;
+  margin-bottom: 12px;
+  width: 256px;
+  height: 256px;
+  overflow: hidden;
+  box-shadow: 0px 0px 17px #000000;
+}
+
+canvas {
+  position: absolute;
+  transform-origin: top left;
+}
+
 .color-card {
   width: 44rpx;
   height: 44rpx;
