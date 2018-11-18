@@ -19,18 +19,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    var ctx = wx.createCanvasContext("t-canvas")
-    const data = new Uint8ClampedArray([0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1])
-    wx.canvasPutImageData({
-      canvasId: 't-canvas',
-      x: 0,
-      y: 0,
-      width: 1,
-      data: data,
-      success(res) { console.log('success: ' + res) },
-      fail(res) { console.log('fail: ' + res) },
-      complete(res) { console.log('complete: ' + res) }
-    })
+    
   },
 
   /**

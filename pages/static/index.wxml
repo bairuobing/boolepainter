@@ -1,6 +1,6 @@
 <view class="container">
   <view class='wrapper'>
-    <canvas id="canvas" bind:touchstart="site" bind:touchmove="dragOrZoom" bindtap="drawDot" canvas-id="cvs" style="width:{{width}}px;height:{{height}}px;top:0;left:0;"></canvas>
+    <canvas disable-scroll="true" id="canvas" bind:touchstart="site" bind:touchmove="dragOrZoom" bindtap="drawDot" canvas-id="cvs" style="width:{{width}}px;height:{{height}}px;"></canvas>
   </view>
   <view class="common-colors">
     <view data-c="{{item}}" bindtap="pickColor" wx:for="{{commonColors}}" style="background-color:{{item}}" class="color-card"></view>
